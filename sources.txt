@@ -1,0 +1,30 @@
+Sources: 
+
+Data: We use data from two Kaggle sites listed below
+ * https://www.kaggle.com/techsash/waste-classification-data
+ * https://www.kaggle.com/asdasdasasdas/garbage-classification
+
+ * We referenced code from both of the websites below and used their steps to process the images.
+ * https://iq.opengenus.org/basics-of-machine-learning-image-classification-techniques/
+ * https://towardsdatascience.com/image-pre-processing-c1aec0be3edf
+ * Calling REST services in React Native: https://rapidapi.com/blog/how-to-make-rest-api-calls-in-react-native/
+ * Axios GET: https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/ 
+ * Uploading images in React Native: https://www.reactnativeschool.com/how-to-upload-images-in-a-react-native-app
+ * Uploading images help: https://stackoverflow.com/questions/66195179/get-downloadurl-in-react-native-after-uploading-image
+ * Uploading images help: https://stackoverflow.com/questions/57797083/how-to-upload-image-to-firebase-using-react-native 
+ * Handling images and Firebase: https://medium.com/@sultanbutt820/react-native-image-upload-retrieve-delete-from-firebase-cloud-storage-ios-android-e05c7cdbf1d2
+ * Opening up image picker: https://docs.expo.io/versions/latest/sdk/imagepicker/ 
+ * PUT request for REST: https://stackoverflow.com/questions/40284338/javascript-fetch-delete-and-put-requests
+ * File data to REST servers: https://www.appcoda.com/restful-api-tutorial-how-to-upload-files-to-server/
+ * Sending images with axios: https://stackoverflow.com/questions/39663961/how-do-you-send-images-to-node-js-with-axios 
+ * Python and React Native: https://stackoverflow.com/questions/59952284/how-to-link-a-python-script-to-react-native-app 
+ * Python and React Native: https://hashnode.com/post/how-to-integrate-python-into-a-react-native-app-ciyadm0vb000mts53x2m9zn6a
+ * axios and data: https://gist.github.com/ibreathebsb/a104a9297d5df4c8ae944a4ed149bcf1
+ * jpg vs. jpeg: https://stackoverflow.com/questions/33692835/is-the-mime-type-image-jpg-the-same-as-image-jpeg 
+ * content types for REST call: https://www.geeksforgeeks.org/http-headers-content-type/
+ * axios and React Native: https://aboutreact.com/react-native-axios/ 
+ * REST APIs and images: https://stackoverflow.com/questions/33279153/rest-api-file-ie-images-processing-best-practices 
+ * Debug help: https://stackoverflow.com/questions/33117449/invariant-violation-objects-are-not-valid-as-a-react-child 
+ * Protecting API keys: https://gist.github.com/derzorngottes/3b57edc1f996dddcab25
+ * Retrieve image from Firebase Storage with Python: https://stackoverflow.com/questions/53304517/how-to-retrieve-image-from-firebase-storage-using-python
+ * Download image from URL using Python: https://jdhao.github.io/2020/06/17/download_image_from_url_python/
