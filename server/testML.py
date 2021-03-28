@@ -114,7 +114,7 @@ def processing(data):
 new_img = processing(train_data)
 X = np.reshape(new_img, (3525, 40000))
 
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import BalancedRandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 y = np.array(train_data['label'])
@@ -122,7 +122,7 @@ y = np.array(train_data['label'])
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # rnd_clf = RandomForestClassifier(criterion="entropy", random_state=100)
-rnd_clf = RandomForestClassifier()
+rnd_clf = BalancedRandomForestClassifier()
 
 from sklearn.metrics import accuracy_score
 
