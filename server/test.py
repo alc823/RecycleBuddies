@@ -11,7 +11,7 @@ cred = credentials.Certificate("credentials.json")
 
 # Initialize the app with a service account, granting admin privileges
 app = firebase_admin.initialize_app(cred, {
-    'storageBucket': 'NAME_OF_STORAGE_BUCKET',
+    'storageBucket': 'STORAGE_BUCKET_NAME',
 }, name='storage')
 
 bucket = storage.bucket(app=app)
@@ -37,7 +37,7 @@ data_arr.append((cvimg,-1))
 data_pd = pd.DataFrame(data_arr, columns=['image','label'], index=None)
 data_pd_reset = data_pd.reset_index(drop=True)
 new_img = testML.processing(data_pd_reset)
-X = np.reshape(new_img,(1, 22500))
+X = np.reshape(new_img,(1, 40000))
 print(X)
 prediction = testML.rnd_clf.predict(X)
 print(prediction[0])
